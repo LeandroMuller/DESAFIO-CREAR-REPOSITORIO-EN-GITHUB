@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +61,6 @@ a {
 }
 
 /*-----NAV-----*/
-
 .nav {
   overflow: auto;
   padding: 20px;
@@ -102,9 +100,8 @@ a {
 }
 
 /*----PORTADA----*/
-
 .portada {
-  background: url("../DESAFRIO-APLICANDO-GRIDS/IMG/portada.jpg");
+  background: url("/IMG/portada.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -112,8 +109,6 @@ a {
   text-align: center;
   padding: 300px 20px;
 }
-
-/*------MAIN------*/
 
 .destacado {
   padding: 40px;
@@ -152,21 +147,18 @@ a {
   20% {
     margin-left: 0;
   }
-
   25% {
     margin-left: -100%;
   }
   45% {
     margin-left: -100%;
   }
-
   50% {
     margin-left: -200%;
   }
   70% {
     margin-left: -200%;
   }
-
   75% {
     margin-left: -300%;
   }
@@ -174,9 +166,6 @@ a {
     margin-left: -300%;
   }
 }
-
-/*----FOOTER-----*/
-
 .footer {
   height: auto;
   margin: 50px;
@@ -216,47 +205,18 @@ a {
   color: aqua;
 }
 
-/*-----PRODUCTOS-----*/
-
-.main-p section ul {
+main section ul {
   display: flex;
   list-style: none;
 }
 
-.main-p section ul li {
+main section ul li {
   margin: 5px;
 }
 
-.grid-p {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 180px;
-  gap: 30px;
+.destacado {
+  text-align: center;
 }
-
-/*---Preguntas Frecuentes---*/
-
-.main-pr section ul {
-  display: flex;
-  list-style: none;
-}
-
-.main-pr section ul li {
-  margin: 5px;
-}
-
-/*---Cuenta---*/
-
-.main-c section ul {
-  display: flex;
-  list-style: none;
-}
-
-.main-c section ul li {
-  margin: 5px;
-}
-
-/*---sucursal---*/
 
 .main-s section ul {
   display: flex;
@@ -274,3 +234,66 @@ a {
 .maps {
   margin: 0px 600px 0px 600px;
 }
+
+.container-faq-global {
+  width: 90%;
+  margin: 100px auto;
+}
+
+.container-faq {
+  box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.container-faq .title-faq {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.a-answer {
+  color: rgb(207, 190, 190);
+}
+
+.a-answer:hover {
+  color: rgb(123, 123, 165);
+  transition: color 0.4s ease;
+}
+
+.question {
+  margin: 25px 0 25px 0;
+}
+
+.main-pr section ul {
+  display: flex;
+  list-style: none;
+}
+
+.main-pr section ul li {
+  margin: 5px;
+}
+
+.main-c section ul {
+  display: flex;
+  list-style: none;
+}
+
+.main-c section ul li {
+  margin: 5px;
+}
+
+.cost span {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.shoe {
+  background-color: rgb(82, 59, 59);
+}
+
+h5 {
+  margin: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

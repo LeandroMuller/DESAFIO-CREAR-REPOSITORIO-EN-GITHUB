@@ -1,0 +1,51 @@
+/*-----NAV-----*/
+
+.nav {
+  overflow: auto;
+  padding: 20px;
+  height: 13vh;
+  text-transform: uppercase;
+}
+
+.nav a {
+  color: white;
+  transition: color 0.4s ease;
+}
+
+.nav a:hover {
+  color: #acb992;
+}
+
+.nav .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 25px;
+}
+
+.nav ul {
+  list-style: none;
+  float: right;
+  font-weight: 500;
+}
+
+.nav ul li {
+  float: left;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+/*----PORTADA----*/
+
+.portada {
+  background: url("/IMG/portada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 87vh;
+  text-align: center;
+  padding: 300px 20px;
+}
